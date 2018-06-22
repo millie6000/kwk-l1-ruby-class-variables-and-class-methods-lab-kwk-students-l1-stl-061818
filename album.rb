@@ -14,5 +14,6 @@ def date_of_album
 end
 end
 
-shawn_mendes=Album.new 
-shawn_mendes.
+shawn_mendes=Album.new("shawn_mendes","2018")
+
+puts "album was made #{shawn_mendes.date}"
