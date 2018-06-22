@@ -14,4 +14,5 @@ def date_of_album
 end
 end
 
-shawn_mendes=
+shawn_mendes=Album.new 
+shawn_mendes.
