@@ -1,4 +1,5 @@
 class Song 
+attr_accessor :jenje,:artist,:name
 
 def initialize(jen, artist, name)
   @jenje = jenje
@@ -6,7 +7,7 @@ def initialize(jen, artist, name)
   @name = name 
 end 
 
-attr_accessor
+
 # end 
 # def gets_jenje
 #   @jenje 
