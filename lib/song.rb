@@ -8,11 +8,9 @@ def initialize(jen, artist, name)
 end 
 
 
+end 
 
-
-ee
-# jon_song = Song.new("hippity hoppity","jon mendes","jon's way")
-# puts jon_song.gets_jenje
-# puts "wow what a great choice"
-# puts jon_song.gets_name
-# puts jon_song.gets_artist
+jon_song = Song.new("hippity hoppity","jon mendez","jon's way")
+big_song = Song.new("l","n","u")
+puts "this is the first method"
+puts Song.get_count_other_way
